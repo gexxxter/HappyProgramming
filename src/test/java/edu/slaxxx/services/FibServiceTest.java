@@ -16,7 +16,7 @@ public class FibServiceTest {
 	public void getFibTest() throws Exception {
 		long fib = FibService.getFib(1);
 		assertEquals(NORMAL_INPUT_1, fib);
-		compiler fehler
+		
 		fib = FibService.getFib(10);
 		assertEquals(NORMAL_INPUT_55, fib);
 	}
